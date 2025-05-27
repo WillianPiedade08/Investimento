@@ -4,10 +4,10 @@ class Login extends StatefulWidget {
   const Login({super.key});
 
   @override
-  State<Login> createState() => _FinanciamentoScreenState();
+  State<Login> createState() => _InvestimentoScreenState();
 }
 
-class _FinanciamentoScreenState extends State<Login> {
+class _InvestimentoScreenState extends State<Login> {
   final TextEditingController valorController = TextEditingController();
   final TextEditingController parcelasController = TextEditingController();
   final TextEditingController taxaController = TextEditingController();
